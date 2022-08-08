@@ -265,3 +265,33 @@ h2 {
 
               
   */
+
+/* 11 - Alineación Grid */
+.grid-11 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  height: 300px;
+  place-content: center;
+}
+
+/*
+      
+    Sintaxis Recomendada:
+    place-content: center;
+
+
+*/
+
+
+/* 12 - Grid Autofill y Autofit Grid */
+.grid-12 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+  
+/*
+        
+    Sintaxis Recomendada:
+  
+  
+ */
