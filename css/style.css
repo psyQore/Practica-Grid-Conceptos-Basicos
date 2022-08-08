@@ -152,9 +152,7 @@ h2 {
 .grid-7 {
   display: grid;
   grid-template-columns: 2fr repeat(2, 1fr);
-
 }
-
 
 /*
   
@@ -169,4 +167,25 @@ h2 {
 
   
           
+*/
+
+/* 8 - Grid Gap */
+.grid-8 {
+  display: grid;
+  grid: repeat(2, 20rem) / repeat(3, 1fr);
+  gap: 2rem;
+}
+.grid-8 .box {
+    margin: 0;
+}
+
+/*
+    
+      Sintaxis Recomendada:
+      gap: 1rem 4rem;
+
+  
+      column-gap: 4rem;
+      row-gap: 4rem;
+            
 */
