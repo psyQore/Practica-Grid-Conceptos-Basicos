@@ -67,6 +67,23 @@ h2 {
   grid-template-columns: repeat(3, 300px);
 }
 
-.grid-2 .box:nth-child(2){
-    grid-column: 1 / 2;
+.grid-2 .box:nth-child(2) {
+  grid-column: 1 / 2;
 }
+
+/* 3 -  Grid Template Rows */
+.grid-3 {
+  display: grid;
+  grid-template-rows: repeat(2, 300px);
+  grid-template-columns: repeat(3, 300px);
+}
+.grid-3 .box:nth-child(2) {
+  grid-row: 1 / 2;
+}
+/*
+  
+    Sintaxis Recomendada:
+    grid-row: repeat(6, 300px);
+  
+  
+*/
