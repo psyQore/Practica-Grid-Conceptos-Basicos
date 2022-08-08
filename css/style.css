@@ -136,9 +136,8 @@ h2 {
   grid-auto-flow: dense;
 }
 .grid-6 .box:nth-child(2) {
-    grid-column: 1 / 2;
+  grid-column: 1 / 2;
 }
-
 
 /*
 
@@ -147,4 +146,27 @@ h2 {
       Para rellenar los espacios del grid
 
         
-  */
+*/
+
+/* 7 - Grid Fr y Grid Repeat */
+.grid-7 {
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+
+}
+
+
+/*
+  
+    Sintaxis Recomendada:
+    grid-template-columns: repeat(2, 1fr);
+
+    grid: repeat(2, 400rem) / repear(3, 1fr);
+
+    si no tiene un heigth no funciona el row
+    xq no tiene una altura definina para dividir en fr
+    sin altura, darle una altura o unidad fija
+
+  
+          
+*/
